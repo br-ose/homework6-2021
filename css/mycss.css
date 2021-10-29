@@ -138,11 +138,11 @@ a:visited
         {
             display:none !important;
         }
-        .pricing li::before:nth-child(even)
+        .pricing li:nth-child(odd)::before
         {
             content:"👍" !important;
         }
-        .pricing li::after:nth-child(odd)
+        .pricing li:nth-child(even)::after
         {
             content:"👍" !important;
         }
