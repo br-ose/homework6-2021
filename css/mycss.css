@@ -27,8 +27,8 @@ a:visited
     border-radius:2px;
     border-color:#45ADAD;
     border-style:solid;
-    padding: top 20px;
-    padding: bottom 20px;
+    padding-top:20px;
+    padding-bottom:20px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
@@ -40,7 +40,6 @@ a:visited
 }
 .card
 {
-    display:auto;
     flex-basis: 450px;
     align-content:center; 
     align-items:center;
@@ -109,6 +108,10 @@ a:visited
     }
   }
   @media print {
+
+        div {
+        break-inside: avoid;
+        }
         body
         {
             background-image:none !important;
