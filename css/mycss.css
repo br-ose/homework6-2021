@@ -149,18 +149,11 @@ a:visited
         display:flex;
         gap:0;
         justify-content:flex-start;
-        position:fixed;
-        width:100%;
     }
 
     .card
     {
         flex-basis:250px;
-    }
-    .card header
-    {
-        width:revert;
-        position:initial;
     }
     @media (prefers-reduced-motion)
      {
