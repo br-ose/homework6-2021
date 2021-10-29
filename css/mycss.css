@@ -163,12 +163,11 @@ a:visited
     {
         flex-basis:250px;
     }
+}
     @media (prefers-reduced-motion)
-     {
+    {
         #logo
         {
             animation-duration:0s;
         }
     }
-
-    
