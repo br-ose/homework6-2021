@@ -160,7 +160,7 @@ a:visited
     .card header
     {
         width:revert;
-        position:relative;
+        position:initial;
     }
     @media (prefers-reduced-motion)
      {
