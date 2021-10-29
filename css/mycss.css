@@ -138,10 +138,15 @@ a:visited
         {
             display:none !important;
         }
-        .pricing li::before
+        .pricing li::before:nth-child(even)
         {
             content:"👍" !important;
         }
+        .pricing li::after:nth-child(odd)
+        {
+            content:"👍" !important;
+        }
+        
     }
   @media screen and (min-width: 850px){
     header
